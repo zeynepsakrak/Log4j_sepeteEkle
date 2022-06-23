@@ -9,7 +9,6 @@ import java.util.Optional;
 public class TestResultLogger implements TestWatcher {
     Log log=new Log();
 
-
     @Override
     public void testSuccessful(ExtensionContext context) {
         String testName= context.getDisplayName();

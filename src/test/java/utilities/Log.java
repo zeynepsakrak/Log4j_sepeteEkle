@@ -5,7 +5,7 @@ import org.apache.log4j.Logger;
 import org.apache.log4j.xml.DOMConfigurator;
 
 public class Log {
-    static final Logger logger = LogManager.getLogger(Log.class);
+  public final Logger logger = LogManager.getLogger(Log.class);
     public Log() {
         DOMConfigurator.configure("log4j.xml");
     }

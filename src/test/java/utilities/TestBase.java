@@ -15,7 +15,6 @@ import tests.TestResultLogger;
 import java.time.Duration;
 @TestInstance(TestInstance.Lifecycle.PER_CLASS)
 @TestMethodOrder(MethodOrderer.OrderAnnotation.class)
-
 public abstract class TestBase {
     protected WebDriver driver;
     @BeforeMethod

@@ -13,7 +13,7 @@ import utilities.Driver;
 import java.util.ArrayList;
 import java.util.Random;
 @ExtendWith(TestResultLogger.class)
-public class GittiGidiyorTest extends TestResultLogger {
+public class GittiGidiyorTest{
     GittiGidiyorPage gittiGidiyorPage=new GittiGidiyorPage();
     Actions actions=new Actions(Driver.getDriver());
     ArrayList<String> secilenUrunList=new ArrayList<>();
